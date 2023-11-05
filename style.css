@@ -588,7 +588,11 @@ font-style: normal;
 font-weight: 300;
 line-height: normal;
 }
-
+.aqa p {
+    margin: 0;
+    text-decoration: line-through;
+    font-size: 12px;
+}
 .sale__info h3{
     margin: 0;
     max-width: 278px;
@@ -1500,7 +1504,13 @@ clip-path: inset(0 0 0 0);
 }
 }
 @media screen and (max-width: 545px){
-
+    .fg {
+        display: none;
+    }
+    .footer-end-content {
+        display: flex;
+        justify-content: center;
+    }
     .ff p{
         font-size: 11.5px;
         gap: 6px;
@@ -1725,6 +1735,11 @@ flex-direction: column;
         }
         .vvverh{
             gap: 5px;
+
+
+        }
+        .vvverh img{
+            width: 20px;
         }
         .header__center-input{
             width: 160px;
@@ -1746,6 +1761,10 @@ flex-direction: column;
     .vvverh{
         display: flex;
         gap: 0px;
+    }
+    .vvverh {
+        display: flex;
+        gap: 18px;
     }
     .content-end{
         display: flex;
